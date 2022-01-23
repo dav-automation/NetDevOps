@@ -1,0 +1,15 @@
+---
+## Playbook to configure vlans using Jinja2 Template
+
+- hosts: core
+  connection: network_cli
+  gather_facts: False
+
+  tasks:
+    - name: Configure Multiple Vlans Using Jinja2
+      ios_config:
+        src: "./templates/feature-vlan.j2"
+    
+    - name: Save The Config Always
+      ios_config:
+        save_when: always
