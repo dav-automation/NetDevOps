@@ -13,3 +13,9 @@ sw2 ansible_host=192.168.1.151
 [routers]
 #wan01 ansible_host=192.168.1.122
 #wan02 ansible_host=192.168.1.123
+
+[switches:vars]
+ansible_network_os=ios
+ansible_connection=network_cli
+ansible_user=cisco
+ansible_password=cisco
