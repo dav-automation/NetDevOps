@@ -10,6 +10,6 @@
       ios_config:
         src: "./templates/feature-vlan.j2"
     
-    - name: Save The Config Always
-      ios_config:
-        save_when: always
+    #- name: Save The Config Always
+    # ios_config:
+    #    save_when: always
