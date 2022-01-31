@@ -6,8 +6,13 @@ switches
 routers
 
 [switches]
-sw1 ansible_host=192.168.1.150
-sw2 ansible_host=192.168.1.151
+tes-sw1 ansible_host=192.168.1.150
+tes-sw2 ansible_host=192.168.1.151
+pr-sw1  ansible_host=192.168.1.190
+pr-sw2  ansible_host=192.168.1.191
+
+
+
 
 
 [routers]
