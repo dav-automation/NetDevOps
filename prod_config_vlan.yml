@@ -1,7 +1,7 @@
 ---
 ## Playbook to configure vlans using Jinja2 Template
 
-- hosts: switches
+- hosts: prod-switches
   connection: network_cli
   gather_facts: False
 
